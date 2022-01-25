@@ -7,33 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED22FA942799A7A30048765C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FA932799A7A30048765C /* AppDelegate.swift */; };
-		ED22FA962799A7A30048765C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FA952799A7A30048765C /* SceneDelegate.swift */; };
-		ED22FA982799A7A30048765C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FA972799A7A30048765C /* ViewController.swift */; };
-		ED22FA9B2799A7A30048765C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED22FA992799A7A30048765C /* Main.storyboard */; };
-		ED22FA9D2799A7A60048765C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED22FA9C2799A7A60048765C /* Assets.xcassets */; };
-		ED22FAA02799A7A60048765C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED22FA9E2799A7A60048765C /* LaunchScreen.storyboard */; };
-		ED22FAA82799A7EF0048765C /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FAA72799A7EF0048765C /* CalculatorBrain.swift */; };
-		ED22FAAA2799A8340048765C /* UIButton+BackgroundColorForState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FAA92799A8340048765C /* UIButton+BackgroundColorForState.swift */; };
-		ED22FAAC2799A8750048765C /* String+BeautifyNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FAAB2799A8750048765C /* String+BeautifyNumbers.swift */; };
+		ED22FABC2799AC2B0048765C /* Calculator_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FABB2799AC2B0048765C /* Calculator_SwiftUIApp.swift */; };
+		ED22FABE2799AC2B0048765C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22FABD2799AC2B0048765C /* ContentView.swift */; };
+		ED22FAC02799AC2D0048765C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED22FABF2799AC2D0048765C /* Assets.xcassets */; };
+		ED22FAC32799AC2D0048765C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED22FAC22799AC2D0048765C /* Preview Assets.xcassets */; };
+		ED95FBDF27A0649A00C0302B /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95FBDE27A0649A00C0302B /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED22FA902799A7A30048765C /* Calculator-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED22FA932799A7A30048765C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED22FA952799A7A30048765C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED22FA972799A7A30048765C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED22FA9A2799A7A30048765C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED22FA9C2799A7A60048765C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED22FA9F2799A7A60048765C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ED22FAA12799A7A60048765C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED22FAA72799A7EF0048765C /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
-		ED22FAA92799A8340048765C /* UIButton+BackgroundColorForState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColorForState.swift"; sourceTree = "<group>"; };
-		ED22FAAB2799A8750048765C /* String+BeautifyNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BeautifyNumbers.swift"; sourceTree = "<group>"; };
+		ED22FAB82799AC2B0048765C /* Calculator-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED22FABB2799AC2B0048765C /* Calculator_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_SwiftUIApp.swift; sourceTree = "<group>"; };
+		ED22FABD2799AC2B0048765C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED22FABF2799AC2D0048765C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED22FAC22799AC2D0048765C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED95FBDE27A0649A00C0302B /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED22FA8D2799A7A30048765C /* Frameworks */ = {
+		ED22FAB52799AC2B0048765C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,83 +34,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED22FA872799A7A30048765C = {
+		ED22FAAF2799AC2B0048765C = {
 			isa = PBXGroup;
 			children = (
-				ED22FA922799A7A30048765C /* Calculator-Storyboard */,
-				ED22FA912799A7A30048765C /* Products */,
+				ED22FABA2799AC2B0048765C /* Calculator-SwiftUI */,
+				ED22FAB92799AC2B0048765C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED22FA912799A7A30048765C /* Products */ = {
+		ED22FAB92799AC2B0048765C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED22FA902799A7A30048765C /* Calculator-Storyboard.app */,
+				ED22FAB82799AC2B0048765C /* Calculator-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED22FA922799A7A30048765C /* Calculator-Storyboard */ = {
+		ED22FABA2799AC2B0048765C /* Calculator-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED22FA932799A7A30048765C /* AppDelegate.swift */,
-				ED22FA952799A7A30048765C /* SceneDelegate.swift */,
-				ED22FA992799A7A30048765C /* Main.storyboard */,
-				ED22FA972799A7A30048765C /* ViewController.swift */,
-				ED22FAA72799A7EF0048765C /* CalculatorBrain.swift */,
-				ED22FAAD2799A9BB0048765C /* Extensions */,
-				ED22FA9C2799A7A60048765C /* Assets.xcassets */,
-				ED22FA9E2799A7A60048765C /* LaunchScreen.storyboard */,
-				ED22FAA12799A7A60048765C /* Info.plist */,
+				ED22FABB2799AC2B0048765C /* Calculator_SwiftUIApp.swift */,
+				ED22FABD2799AC2B0048765C /* ContentView.swift */,
+				ED95FBDE27A0649A00C0302B /* CalculatorBrain.swift */,
+				ED22FABF2799AC2D0048765C /* Assets.xcassets */,
+				ED22FAC12799AC2D0048765C /* Preview Content */,
 			);
-			path = "Calculator-Storyboard";
+			path = "Calculator-SwiftUI";
 			sourceTree = "<group>";
 		};
-		ED22FAAD2799A9BB0048765C /* Extensions */ = {
+		ED22FAC12799AC2D0048765C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ED22FAA92799A8340048765C /* UIButton+BackgroundColorForState.swift */,
-				ED22FAAB2799A8750048765C /* String+BeautifyNumbers.swift */,
+				ED22FAC22799AC2D0048765C /* Preview Assets.xcassets */,
 			);
-			path = Extensions;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED22FA8F2799A7A30048765C /* Calculator-Storyboard */ = {
+		ED22FAB72799AC2B0048765C /* Calculator-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED22FAA42799A7A60048765C /* Build configuration list for PBXNativeTarget "Calculator-Storyboard" */;
+			buildConfigurationList = ED22FAC62799AC2D0048765C /* Build configuration list for PBXNativeTarget "Calculator-SwiftUI" */;
 			buildPhases = (
-				ED22FA8C2799A7A30048765C /* Sources */,
-				ED22FA8D2799A7A30048765C /* Frameworks */,
-				ED22FA8E2799A7A30048765C /* Resources */,
+				ED22FAB42799AC2B0048765C /* Sources */,
+				ED22FAB52799AC2B0048765C /* Frameworks */,
+				ED22FAB62799AC2B0048765C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Calculator-Storyboard";
-			productName = "Calculator-Storyboard";
-			productReference = ED22FA902799A7A30048765C /* Calculator-Storyboard.app */;
+			name = "Calculator-SwiftUI";
+			productName = "Calculator-SwiftUI";
+			productReference = ED22FAB82799AC2B0048765C /* Calculator-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED22FA882799A7A30048765C /* Project object */ = {
+		ED22FAB02799AC2B0048765C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					ED22FA8F2799A7A30048765C = {
+					ED22FAB72799AC2B0048765C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = ED22FA8B2799A7A30048765C /* Build configuration list for PBXProject "Calculator-Storyboard" */;
+			buildConfigurationList = ED22FAB32799AC2B0048765C /* Build configuration list for PBXProject "Calculator-SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,66 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = ED22FA872799A7A30048765C;
-			productRefGroup = ED22FA912799A7A30048765C /* Products */;
+			mainGroup = ED22FAAF2799AC2B0048765C;
+			productRefGroup = ED22FAB92799AC2B0048765C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED22FA8F2799A7A30048765C /* Calculator-Storyboard */,
+				ED22FAB72799AC2B0048765C /* Calculator-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED22FA8E2799A7A30048765C /* Resources */ = {
+		ED22FAB62799AC2B0048765C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED22FAA02799A7A60048765C /* LaunchScreen.storyboard in Resources */,
-				ED22FA9D2799A7A60048765C /* Assets.xcassets in Resources */,
-				ED22FA9B2799A7A30048765C /* Main.storyboard in Resources */,
+				ED22FAC32799AC2D0048765C /* Preview Assets.xcassets in Resources */,
+				ED22FAC02799AC2D0048765C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED22FA8C2799A7A30048765C /* Sources */ = {
+		ED22FAB42799AC2B0048765C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED22FA982799A7A30048765C /* ViewController.swift in Sources */,
-				ED22FA942799A7A30048765C /* AppDelegate.swift in Sources */,
-				ED22FAAC2799A8750048765C /* String+BeautifyNumbers.swift in Sources */,
-				ED22FAAA2799A8340048765C /* UIButton+BackgroundColorForState.swift in Sources */,
-				ED22FAA82799A7EF0048765C /* CalculatorBrain.swift in Sources */,
-				ED22FA962799A7A30048765C /* SceneDelegate.swift in Sources */,
+				ED95FBDF27A0649A00C0302B /* CalculatorBrain.swift in Sources */,
+				ED22FABE2799AC2B0048765C /* ContentView.swift in Sources */,
+				ED22FABC2799AC2B0048765C /* Calculator_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		ED22FA992799A7A30048765C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED22FA9A2799A7A30048765C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ED22FA9E2799A7A60048765C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED22FA9F2799A7A60048765C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		ED22FAA22799A7A60048765C /* Debug */ = {
+		ED22FAC42799AC2D0048765C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		ED22FAA32799A7A60048765C /* Release */ = {
+		ED22FAC52799AC2D0048765C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,28 +265,28 @@
 			};
 			name = Release;
 		};
-		ED22FAA52799A7A60048765C /* Debug */ = {
+		ED22FAC72799AC2D0048765C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = RP4PNYFADM;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Calculator-Storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftify.Calculator-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftify.Calculator-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,28 +294,28 @@
 			};
 			name = Debug;
 		};
-		ED22FAA62799A7A60048765C /* Release */ = {
+		ED22FAC82799AC2D0048765C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = RP4PNYFADM;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Calculator-Storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftify.Calculator-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftify.Calculator-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -363,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED22FA8B2799A7A30048765C /* Build configuration list for PBXProject "Calculator-Storyboard" */ = {
+		ED22FAB32799AC2B0048765C /* Build configuration list for PBXProject "Calculator-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED22FAA22799A7A60048765C /* Debug */,
-				ED22FAA32799A7A60048765C /* Release */,
+				ED22FAC42799AC2D0048765C /* Debug */,
+				ED22FAC52799AC2D0048765C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED22FAA42799A7A60048765C /* Build configuration list for PBXNativeTarget "Calculator-Storyboard" */ = {
+		ED22FAC62799AC2D0048765C /* Build configuration list for PBXNativeTarget "Calculator-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED22FAA52799A7A60048765C /* Debug */,
-				ED22FAA62799A7A60048765C /* Release */,
+				ED22FAC72799AC2D0048765C /* Debug */,
+				ED22FAC82799AC2D0048765C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED22FA882799A7A30048765C /* Project object */;
+	rootObject = ED22FAB02799AC2B0048765C /* Project object */;
 }
