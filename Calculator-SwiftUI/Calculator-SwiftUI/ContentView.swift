@@ -10,6 +10,15 @@ struct ContentView: View {
     @State private var display = "0"
     @State private var memoryDisplay = " "
     
+    @State private var brain = CalculatorBrain()
+    @State var userIsInTheMiddleOfTyping = false
+
+    @State private var variables = [String: Double]() {
+        didSet {
+            memoryDisplay = variables.compactMap { $0 + ":\($1)" }.joined(separator: ", ").beautifyNumbers()
+        }
+    }
+        
     var body: some View {
         ZStack(alignment: .topLeading) {
             GeometryReader { geometry in
@@ -691,3 +700,10 @@ extension View {
         offset(x: DynamicSize.getOffsetX(dynamicX), y: DynamicSize.getOffsetY(dynamicY))
     }
 }
+
+
+
+//        brain = CalculatorBrain()
+//        descriptionDisplay.text = " "
+//        userIsInTheMiddleOfTyping = false
+//        variables = [String: Double]()
