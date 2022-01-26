@@ -11,11 +11,11 @@ For more details about the Storyboard → SwiftUI Converter and the conversion p
  - Xcode 13+
 
 ## Important Links
-1. Original UIKit project
-2. SwiftUI project with raw converter outputs
-3. Modified SwiftUI project
+1. [Original UIKit project](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-Storyboard)
+2. [SwiftUI project supporting single orientation](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI)
+3. [Modified SwiftUI project](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI(Landscape%2BPortrait))
 
-## Screenshots
+## Screenshot
 <p align="center">
   <img width="460" height="300" src="Completed.gif">
 </p>
