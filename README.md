@@ -16,7 +16,9 @@ For more details about the Storyboard → SwiftUI Converter and the conversion p
 3. Modified SwiftUI project
 
 ## Screenshots
-![Completed](Completed.gif)
+<p align="center">
+  <img width="460" height="300" src="Completed.gif">
+</p>
 
 ## References
 We have used the UIKit project from this [repository](https://github.com/m2mtech/calculator-2017). Since the project was written in an older Swift version, we have updated the project to use Swift 5.0.
