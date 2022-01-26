@@ -6,15 +6,14 @@ import SwiftUI
 // ContentViewController
 // --------------------------------------------------------------------------------
 struct ContentView: View {
-    @State private var descriptionDisplay = " "
-    @State private var display = "0"
-    @State private var memoryDisplay = " "
+    @State var descriptionDisplay = " "
+    @State var display = "0"
+    @State var memoryDisplay = " "
     
     @State var brain = CalculatorBrain()
     @State var userIsInTheMiddleOfTyping = false
-    private let decimalSeparator = NumberFormatter().decimalSeparator!
 
-    @State private var variables = [String: Double]() {
+    @State var variables = [String: Double]() {
         didSet {
             memoryDisplay = variables.compactMap { $0 + ":\($1)" }.joined(separator: ", ").beautifyNumbers()
         }
@@ -23,6 +22,8 @@ struct ContentView: View {
     var displayValue: Double {
         return (NumberFormatter().number(from: display)?.doubleValue)!
     }
+    
+    let decimalSeparator = NumberFormatter().decimalSeparator!
             
     var body: some View {
         ZStack(alignment: .topLeading) {

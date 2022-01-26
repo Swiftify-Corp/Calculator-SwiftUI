@@ -5,6 +5,8 @@
 //  Created by Ibrahim Hassan on 26/01/22.
 //
 
+import SwiftUI
+
 extension ContentView {
     func performOperationBuilder(_ operation: String) -> some View {
         Button(action: {
