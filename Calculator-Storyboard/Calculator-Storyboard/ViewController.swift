@@ -77,6 +77,7 @@ class ContentViewController: UIViewController {
     @IBAction func reset(_ sender: UIButton) {
         brain = CalculatorBrain()
         descriptionDisplay.text = " "
+        display.text = "0"
         userIsInTheMiddleOfTyping = false
         variables = [String: Double]()
     }

@@ -10,6 +10,7 @@ extension ContentView {
         //TODO: Paste the contents of ContentViewController.reset()
         brain = CalculatorBrain()
         descriptionDisplay = " "
+        display = "0"
         userIsInTheMiddleOfTyping = false
         variables = [String: Double]()
     }

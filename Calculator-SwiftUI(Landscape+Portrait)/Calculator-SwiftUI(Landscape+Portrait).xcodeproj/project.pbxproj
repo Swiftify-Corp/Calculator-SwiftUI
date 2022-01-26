@@ -66,13 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				ED22FABB2799AC2B0048765C /* Calculator_SwiftUIApp.swift */,
-				ED22FABD2799AC2B0048765C /* ContentView.swift */,
-				ED95FBE227A1390E00C0302B /* ContentView+ButtonBuilders.swift */,
-				ED95FBE427A1394D00C0302B /* ContentView+ButtonActions.swift */,
-				ED95FBE627A1398800C0302B /* DyanmicSize.swift */,
 				ED95FBDE27A0649A00C0302B /* CalculatorBrain.swift */,
-				EDFDB42C27A170C80006204A /* ContentView+Portrait.swift */,
+				EDFDB43027A173040006204A /* ContentView */,
 				EDFDB42D27A170C80006204A /* Device+Rotation.swift */,
+				ED95FBE627A1398800C0302B /* DyanmicSize.swift */,
 				ED95FBE027A079EE00C0302B /* String+BeautifyNumbers.swift */,
 				ED22FABF2799AC2D0048765C /* Assets.xcassets */,
 				ED22FAC12799AC2D0048765C /* Preview Content */,
@@ -86,6 +83,17 @@
 				ED22FAC22799AC2D0048765C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDFDB43027A173040006204A /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				ED22FABD2799AC2B0048765C /* ContentView.swift */,
+				EDFDB42C27A170C80006204A /* ContentView+Portrait.swift */,
+				ED95FBE227A1390E00C0302B /* ContentView+ButtonBuilders.swift */,
+				ED95FBE427A1394D00C0302B /* ContentView+ButtonActions.swift */,
+			);
+			path = ContentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
