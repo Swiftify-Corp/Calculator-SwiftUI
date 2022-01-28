@@ -56,6 +56,7 @@ struct DynamicSize {
 // --------------------------------------------------------------------------------
 extension View {
     func frame(dynamicWidth: CGFloat? = nil, dynamicHeight: CGFloat? = nil, alignment: Alignment = .center) -> some View {
+//        frame(maxWidth: DynamicSize.getWidth(dynamicWidth ?? 0), maxHeight: DynamicSize.getHeight(dynamicHeight ?? 0), alignment: alignment)
         frame(
             width: DynamicSize.getWidth(dynamicWidth ?? 0),
             height: DynamicSize.getHeight(dynamicHeight ?? 0),

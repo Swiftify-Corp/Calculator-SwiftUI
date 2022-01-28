@@ -7,7 +7,6 @@
 
 extension ContentView {
     func reset() {
-        //TODO: Paste the contents of ContentViewController.reset()
         brain = CalculatorBrain()
         descriptionDisplay = " "
         display = "0"
@@ -16,7 +15,6 @@ extension ContentView {
     }
     
     func undo() {
-        //TODO: Paste the contents of ContentViewController.undo()
         if userIsInTheMiddleOfTyping {
             var text = display
             text.remove(at: text.index(before: text.endIndex))
@@ -48,21 +46,18 @@ extension ContentView {
     }
     
     func storeToMemory() {
-        //TODO: Paste the contents of ContentViewController.storeToMemory()
         variables["M"] = displayValue
         userIsInTheMiddleOfTyping = false
         displayResult()
     }
     
     func callMemory() {
-        //TODO: Paste the contents of ContentViewController.callMemory()
         brain.setOperand(variable: "M")
         userIsInTheMiddleOfTyping = false
         displayResult()
     }
     
     func performOperation(_ mathematicalSymbol: String) {
-        //TODO: Paste the contents of ContentViewController.performOperation()
         if userIsInTheMiddleOfTyping {
             brain.setOperand(displayValue)
             userIsInTheMiddleOfTyping = false
@@ -73,7 +68,6 @@ extension ContentView {
     }
     
     func touchDigit(_ digit: String) {
-        //TODO: Paste the contents of ContentViewController.touchDigit()
         if userIsInTheMiddleOfTyping {
             let textCurrentlyInDisplay = display
             
