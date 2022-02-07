@@ -17,16 +17,21 @@ extension String {
 
         var text = self as NSString
         var numbers = [String]()
-        let regex = try! NSRegularExpression(pattern: "[.0-9]+", options: .caseInsensitive)
+        
+        guard let regex = try? NSRegularExpression(pattern: "[.0-9]+", options: .caseInsensitive) else {
+            return ""
+        }
+        
         let matches = regex.matches(in: self, options: [], range: NSRange(location: 0, length: text.length))
         numbers = matches.map { text.substring(with: $0.range) }
 
         for number in numbers {
             text = text.replacingOccurrences(
                 of: number,
-                with: formatter.string(from: NSNumber(value: Double(number)!))!
+                with: formatter.string(from: NSNumber(value: Double(number) ?? 0.0)) ?? ""
             ) as NSString
         }
+        
         return text as String
     }
 }

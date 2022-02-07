@@ -20,10 +20,12 @@ struct ContentView: View {
     }
     
     var displayValue: Double {
-        return (NumberFormatter().number(from: display)?.doubleValue)!
+        return (NumberFormatter().number(from: display)?.doubleValue) ?? 0.0
     }
     
-    let decimalSeparator = NumberFormatter().decimalSeparator!
+    let decimalSeparator: String {
+        NumberFormatter().decimalSeparator ?? ""
+    }
             
     var body: some View {
         ZStack(alignment: .topLeading) {
