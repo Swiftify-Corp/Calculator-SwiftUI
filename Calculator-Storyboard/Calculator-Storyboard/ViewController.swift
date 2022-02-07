@@ -15,13 +15,18 @@ class ContentViewController: UIViewController {
 
     var userIsInTheMiddleOfTyping = false
 
-    private let decimalSeparator = NumberFormatter().decimalSeparator!
+    private var decimalSeparator: String {
+        return NumberFormatter().decimalSeparator ?? ""
+    }
 
     @IBAction func touchDigit(_ sender: UIButton) {
-        let digit = sender.currentTitle!
+        guard let digit = sender.currentTitle else {
+            return
+        }
 
         if userIsInTheMiddleOfTyping {
-            let textCurrentlyInDisplay = display.text!
+            let textCurrentlyInDisplay = display.text ?? ""
+            
             if decimalSeparator != digit || !textCurrentlyInDisplay.contains(decimalSeparator) {
                 display.text = textCurrentlyInDisplay + digit
             }
@@ -42,7 +47,7 @@ class ContentViewController: UIViewController {
     }
 
     var displayValue: Double {
-        return (NumberFormatter().number(from: display.text!)?.doubleValue)!
+        return (NumberFormatter().number(from: display.text ?? "")?.doubleValue) ?? 0.0
     }
 
     private var brain = CalculatorBrain()
