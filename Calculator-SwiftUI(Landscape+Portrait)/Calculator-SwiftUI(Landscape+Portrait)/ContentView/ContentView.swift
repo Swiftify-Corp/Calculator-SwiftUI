@@ -20,7 +20,7 @@ struct ContentView: View {
     }
     
     var displayValue: Double {
-        return (NumberFormatter().number(from: display)?.doubleValue)!
+        return (NumberFormatter().number(from: display)?.doubleValue) ?? 0.0
     }
     
     @State private var orientation = UIDeviceOrientation.unknown
@@ -31,7 +31,9 @@ struct ContentView: View {
         return DynamicSize.isPortrait
     }
     
-    let decimalSeparator = NumberFormatter().decimalSeparator!
+    var decimalSeparator: String {
+        return NumberFormatter().decimalSeparator ?? ""
+    }
             
     var body: some View {
         Group {

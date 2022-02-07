@@ -23,8 +23,8 @@ struct ContentView: View {
         return (NumberFormatter().number(from: display)?.doubleValue) ?? 0.0
     }
     
-    let decimalSeparator: String {
-        NumberFormatter().decimalSeparator ?? ""
+    var decimalSeparator: String {
+        return NumberFormatter().decimalSeparator ?? ""
     }
             
     var body: some View {

@@ -146,26 +146,29 @@ struct CalculatorBrain {
         }
 
         func performPendingBinaryOperation() {
-            if nil != pendingBinaryOperation && nil != accumulator {
-                if let errorOperation = errorOperations[pendingBinaryOperation!.symbol],
-                    case .binaryOperation(let errorFunction) = errorOperation {
-                    error = errorFunction(pendingBinaryOperation!.firstOperand.0, accumulator!.0)
+            if let _pendingBinaryOperation = pendingBinaryOperation,
+               let _accumulator = accumulator {
+                if let errorOperation = errorOperations[_pendingBinaryOperation.symbol],
+                   case .binaryOperation(let errorFunction) = errorOperation {
+                    error = errorFunction(_pendingBinaryOperation.firstOperand.0, _accumulator.0)
                 }
-                accumulator = pendingBinaryOperation!.perform(with: accumulator!)
+                
+                accumulator = _pendingBinaryOperation.perform(with: _accumulator)
                 pendingBinaryOperation = nil
             }
         }
 
         var result: Double? {
-            if nil != accumulator {
-                return accumulator!.0
+            if let _accumulator = accumulator {
+                return _accumulator.0
             }
+            
             return nil
         }
 
         var description: String? {
-            if nil != pendingBinaryOperation {
-                return pendingBinaryOperation!.description(pendingBinaryOperation!.firstOperand.1, accumulator?.1 ?? "")
+            if let _pendingBinaryOperation = pendingBinaryOperation {
+                return _pendingBinaryOperation.description(_pendingBinaryOperation.firstOperand.1, accumulator?.1 ?? "")
             } else {
                 return accumulator?.1
             }
@@ -183,17 +186,18 @@ struct CalculatorBrain {
                     case .nullaryOperation(let function, let description):
                         accumulator = (function(), description)
                     case .unaryOperation(let function, let description):
-                        if nil != accumulator {
+                        if let _accumulator = accumulator {
                             if let errorOperation = errorOperations[symbol],
                                 case .unaryOperation(let errorFunction) = errorOperation {
-                                error = errorFunction(accumulator!.0)
+                                error = errorFunction(_accumulator.0)
                             }
-                            accumulator = (function(accumulator!.0), description(accumulator!.1))
+                            
+                            accumulator = (function(_accumulator.0), description(_accumulator.1))
                         }
                     case .binaryOperation(let function, let description):
                         performPendingBinaryOperation()
-                        if nil != accumulator {
-                            pendingBinaryOperation = PendingBinaryOperation(symbol: symbol, function: function, description: description, firstOperand: accumulator!)
+                        if let _accumulator = accumulator {
+                            pendingBinaryOperation = PendingBinaryOperation(symbol: symbol, function: function, description: description, firstOperand: _accumulator)
                             accumulator = nil
                         }
                     case .equals:
