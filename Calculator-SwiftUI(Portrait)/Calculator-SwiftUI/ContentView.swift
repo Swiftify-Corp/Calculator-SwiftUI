@@ -365,7 +365,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewDevice(PreviewDevice(rawValue: "iPhone SE (1st generation)"))
-            .previewInterfaceOrientation(.portrait)
+            .previewInterfaceOrientation(.landscapeLeft)
             .preferredColorScheme(.light)
     }
 }
