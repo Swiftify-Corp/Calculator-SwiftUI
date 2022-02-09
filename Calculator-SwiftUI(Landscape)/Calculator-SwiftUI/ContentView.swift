@@ -63,6 +63,61 @@ struct ContentView: View {
                     VStack() {
                         Group {
                             HStack() {
+                                Button(action: {
+                                    reset()
+                                }) {
+                                    Text("C").lineLimit(1).font(.system(size: 30, weight: .regular))
+                                        .frame(dynamicWidth: 141.5, dynamicHeight: 0, alignment: .center)
+                                }
+                                .aspectRatio(contentMode: .fill)
+                                .font(.system(size: 30, weight: .regular))
+                                .accentColor(Color(red: 0.0, green: 0.0, blue: 0.0))
+                                .background(Color(red: 1.0, green: 1.0, blue: 0.0))
+                                
+                                Spacer().frame(dynamicWidth: 1)
+                                
+                                Button(action: {
+                                    undo()
+                                }) {
+                                    Text("CE").lineLimit(1).font(.system(size: 30, weight: .regular))
+                                        .frame(dynamicWidth: 141, dynamicHeight: 0, alignment: .center)
+                                }
+                                .aspectRatio(contentMode: .fill)
+                                .font(.system(size: 30, weight: .regular))
+                                .accentColor(Color(red: 0.0, green: 0.0, blue: 0.0))
+                                .background(Color(red: 1.0, green: 1.0, blue: 0.0))
+                                
+                                Spacer().frame(dynamicWidth: 1)
+                                
+                                Button(action: {
+                                    storeToMemory()
+                                }) {
+                                    Text("→M").lineLimit(1).font(.system(size: 30, weight: .regular))
+                                        .frame(dynamicWidth: 141.5, dynamicHeight: 0, alignment: .center)
+                                }
+                                .aspectRatio(contentMode: .fill)
+                                .font(.system(size: 30, weight: .regular))
+                                .accentColor(Color(white: 1.0))
+                                .background(Color(red: 0.0, green: 0.47843137, blue: 1.0))
+                                
+                                Spacer().frame(dynamicWidth: 1)
+                                
+                                Button(action: {
+                                    callMemory()
+                                }) {
+                                    Text("M").lineLimit(1).font(.system(size: 30, weight: .regular))
+                                        .frame(dynamicWidth: 141, dynamicHeight: 0, alignment: .center)
+                                }
+                                .aspectRatio(contentMode: .fill)
+                                .font(.system(size: 30, weight: .regular))
+                                .accentColor(Color(white: 1.0))
+                                .background(Color(red: 0.0, green: 0.47843137, blue: 1.0))
+                            }
+                            .frame(dynamicWidth: 568, dynamicHeight: 0)
+                            .isHidden(true, remove: true)
+                            .tag(2)
+                            
+                            HStack() {
                                 Group {
                                     Button(action: {
                                         reset()
