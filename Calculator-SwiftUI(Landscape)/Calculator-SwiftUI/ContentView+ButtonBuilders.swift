@@ -14,7 +14,7 @@ extension ContentView {
         }) {
             let operation = Text(operation).lineLimit(1).font(.system(size: 30, weight: .regular))
                 
-            operation.frame(dynamicWidth: 80.5, dynamicHeight: 48, alignment: .center)
+            operation.frame(dynamicWidth: 79.5, dynamicHeight: 79.5, alignment: .center)
         }
         .aspectRatio(contentMode: .fill)
         .font(.system(size: 30, weight: .regular))
@@ -26,7 +26,7 @@ extension ContentView {
         }) {
             let number = Text(number).lineLimit(1).font(.system(size: 30, weight: .regular))
             
-            number.frame(dynamicWidth: 80, dynamicHeight: 48, alignment: .center)
+            number.frame(dynamicWidth: 79.5, dynamicHeight: 79.5, alignment: .center)
         }
         .aspectRatio(contentMode: .fill)
         .font(.system(size: 30, weight: .regular))
