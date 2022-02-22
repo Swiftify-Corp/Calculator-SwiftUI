@@ -1,5 +1,5 @@
 # Calculator - SwiftUI
-<h3> Calculator App (cs193p Winter - 2017) translated from UIKit to SwiftUI.</h3>
+<h3> Calculator App (CS193p Winter - 2017) translated from UIKit to SwiftUI.</h3>
 
 This project demonstrates converting an iOS App written in Swift and UIKit to SwiftUI using the [Storyboard → SwiftUI](https://swiftify.com/converter/storyboard2swiftui/) converter by [Swiftify](https://swiftify.com/converter/code/). 
 
