@@ -12,8 +12,8 @@ For more details about the Storyboard → SwiftUI Converter and the conversion p
 
 ## Important Links
 1. [UIKit project](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-Storyboard)
-2. [SwiftUI project supporting lanscape only](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI(Landscape))
-3. [Completed SwiftUI project](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI(Landscape%2BPortrait))
+2. [SwiftUI project portrait mode only](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI(Portrait))
+3. [Completed SwiftUI project](https://github.com/Swiftify-Corp/Calculator-SwiftUI/tree/main/Calculator-SwiftUI(Portrait%2BLandscape))
 
 ## Screen Recording
 
